@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: gray;
+
+}
+
+.contenedor-encabezado{
+    width: 90%;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.contenedor-encabezado h1{
+    color: aquamarine;
+    text-align: center;
+    font-size: 38px;
+    line-height: 60px;
+
+
+}
+
+.contenedor-encabezado ul{
+    display: flex;
+    float: left;
+}
+
+.contenedor-encabezado ul li {
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+.contenedor-encabezado ul li a{
+    text-decoration: none;
+    color: beige;
+
+}
+
+.contenedor-encabezado ul li a:hover{
+    font-size: 25px;
+    background-color: blue;
+    color: yellow;
+}
+
+
+
